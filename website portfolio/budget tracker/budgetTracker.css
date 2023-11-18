@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+}
+.container {
+  height: 500px;
+  width: 800px;
+  /* position: absolute; */
+  padding: 15px;
+  margin-top: 50px;
+  margin-left: 250px;
+  font-size: larger;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  /* position: relative; */
+  margin-top: 50px;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  margin-top: 100px;
+}
+
+.third {
+  /* position: relative; */
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.forth {
+  /* position: relative; */
+  margin-top: 100px;
+  margin-right: 80px;
+}
+.containerResult {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.money {
+  color: rgb(105, 193, 105);
+}
+.money1 {
+  color: grey;
+}
+.money2 {
+  color: rgb(235, 81, 81);
+}
+
+#description,
+#amount {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  outline-style: none;
+  background-color: rgb(255, 255, 255);
+}
+#income {
+  background-color: transparent;
+  display: inline-block;
+  border: 2px solid rgb(105, 193, 105);
+  line-height: 1.3;
+  color: rgb(105, 193, 105);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+  #income:hover{
+    background-color: rgb(105, 193, 105);
+    color: white;
+    border: 2px solid transparent;
+    transition: .4s;
+
+  
+}
+#expense {
+  background-color: transparent;
+  display: inline-block;
+  border: 2px solid rgb(235, 81, 81);
+  line-height: 1.3;
+  color:rgb(235, 81, 81);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+#expense:hover{
+  background-color: rgb(235, 81, 81);
+  color: white;
+  border: 2px solid transparent;
+  transition: .4s;
+}
+#reset{
+    background-color: transparent;
+    display: inline-block;
+    border: 2px solid rgb(146, 146, 146);
+    line-height: 1.3;
+    color:rgb(146,146, 146);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-left: 10px; 
+}
+#reset:hover{
+    background-color: rgb(146, 146, 146);
+    color: white;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+
+#h2income {
+  color: rgb(105, 193, 105);
+}
+
+#h2expense {
+  color: rgb(235, 81, 81);
+}
+
+#ulExpense {
+  color: rgb(235, 81, 81);
+}
+#ulIncome {
+  color: rgb(105, 193, 105);
+}
+#reset {
+  position: relative;
+}
+.btn a{
+  display: inline-block;
+ background: transparent;
+ border: 2px solid #2e9fcc;
+ padding: 9px 28px;
+ border-radius: 30px;
+ line-height: 1.3;
+ color: #2e9fcc;
+ font-weight: 500;
+ text-decoration: none;
+ margin-top: 20px;
+ margin-left: 50px;
+}
+.btn:hover a{
+  background-color: #2e9fcc;
+  color: white;
+  border: 2px solid transparent;
+  transition: .4s;
+}

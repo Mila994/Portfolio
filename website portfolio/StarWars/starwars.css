@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+  }
+  #img {
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
+  
+  thead {
+    color: yellow;
+    font-weight: bold;
+  }
+  tbody {
+    color: white;
+  }
+  #next {
+    color: black;
+    background-color: yellow;
+  }
+  #previous {
+    color: black;
+    background-color: yellow;
+  }
+  
+  #table td {
+    padding: 10px;
+  }
+  #tableAndBtns {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+  }
+  #loading{
+      display: flex;
+      justify-content: center;
+  }
+  
+  #loader{
+      width: 50px;
+  }
+  
+  #iconClick{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #cosmonaut{
+      width: 200px;
+      margin-right: 30px;
+  }
+  #spaceship{
+      width: 200px;
+      margin-left: 30px;
+  }
+  #nextPrevious{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 500px;
+      margin-right: 500px;
+      margin-top: 20px;
+  }
+  #next{
+    margin-left: 100px;
+      width: 50px;
+      height: 30px;
+      border-radius: 20px;
+  }
+  #previous{
+    margin-right: 100px;
+          width: 50px;
+          height: 30px;
+          border-radius: 20px;
+      }
+
+      #iconClick img {
+        transition: all 0.2s ease-in-out;
+      }
+      
+      #iconClick img:hover {
+        transform: scale(1.1);
+      }

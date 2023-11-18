@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget tracker</title>
+    <link href="budgetTracker.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <span class="btn"><a href="/mywork.html">Back to my work</a></span>
+    <div class="container">
+      <div class="first">
+        <div class="money" id="earned">
+          <span>Money earned</span>
+          <div id="finalAmountEarned">
+            <span class="euros">€</span>
+            <span id="moneyEarned">0</span>
+          </div>
+        </div>
+
+        <div class="money1" id="available">
+          <span>Money available</span>
+          <div id="finalAmountAvailable">
+            <span class="euros">€</span>
+            <span id="moneyAvailable">0</span>
+          </div>
+        </div>
+
+        <div class="money2" id="spent">
+          <span>Money spent</span>
+          <div id="finalAmountSpent">
+            <span class="euros">€</span>
+            <span id="moneySpent">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="second">
+        <div class="input">
+          <input type="text" placeholder="description" id="description" />
+          <input type="number" placeholder="amount" id="amount" />
+        </div>
+        <div class="button">
+          <button id="income">Income</button>
+          <button id="expense">Expense</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+
+      <div class="containerResult">
+        <div class="result" id="incomeResult">
+            <div id="h2income">
+            <h2>Income €</h2></div>
+            <div class="item income">
+                <ul id="ulIncome"></ul>
+                <div class="item income">
+                    <span class="income amount"></span>
+                </div>  
+            </div>
+
+        </div>
+
+
+
+        <div class="result" id="expenseResult">
+            <div id="h2expense">
+            <h2>Expense €</h2></div>
+            <div class="item expense">
+                <ul id="ulExpense"></ul>
+                <div class="item expense">
+                    <span class="expense amount"></span>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="budgetTracker.js"></script>
+  </body>
+</html>
